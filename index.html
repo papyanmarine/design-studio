@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <title>example</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/owl.carousel.min.css">
+</head>
+<body>
+    <header class="header bg">
+        <div class="container">
+            <div class="header-box">
+                <nav class="header-menu">
+                    <div class="menu-wrap">
+                        <ul>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">works</a>
+                                <div class="line"></div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">about</a>
+                                <div class="line"></div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#services" class="menu-link">services</a>
+                                <div class="line"></div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">blog</a>
+                                <div class="line"></div>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#contact" class="menu-link">contact</a>
+                                <div class="line"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="burger-btn d-none">
+                        open
+                    </div>
+                </nav>
+                    <div class="header-title">
+                        <h1>WHERE GREAT IDEAS COME TO LIFE</h1>
+                        <p>Passionate creative studio helping startups grow their business!</p>
+                    </div>
+                    <div class="header-button">
+                        <span id="one" class="active">01</span>
+                        <span id="two">02</span>
+                        <span id="three">03</span>
+                    </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="sqwd">
+            <div class="container">
+                <div class="sqwd-row">
+                    <div class="sqwd-coll-1">
+                        <div class="sqwd-text left">
+                            <h2 class="sqwd-title title">WE ARE </h2>
+                            <h2 class="sqwd-title-span">THE SQWD</h2>
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt.
+                            </p>
+                        </div>
+                        <img class = "img1 img" src="./image/1.png" alt="img">
+                    </div>
+                    <div class="sqwd-coll-2">
+                        <img class = "green-box" src="./image/2.png" alt="img">
+                    </div>
+                    <div class="sqwd-coll-3">
+                        <div class="sqwd-text right">
+                            <p>Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt.
+                            </p>
+                        </div>
+                        <img class = "img2 img" src="./image/3.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services" id="services">
+            <div class="container">
+                <div class="services-row">
+                    <div class="services-title">
+                        <h2 class="title">Our Services</h2>
+                        <div class="title-line"></div>
+                    </div>
+                    <div class="services-card fl-row">
+                        <div class="card-box">
+                            <div class="card-block-1">
+                                <h3 class="card-title"> Branding </h3>
+                                <div class="card-icon">
+                                    <img src="./image/pencil-case.png" alt="img">
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                            <a href="#" class="card-btn"> read more</a>
+                        </div>
+                        <div class="card-box">
+                            <div class="card-block-1">
+                                <h3 class="card-title">DESIGN </h3>
+                                <div class="card-icon">
+                                    <img src="./image/pencil-case.png" alt="img">
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                            <a href="#" class="card-btn"> read more</a>
+                        </div>
+                        <div class="card-box">
+                            <div class="card-block-1">
+                                <h3 class="card-title"> DEVELOPMENT </h3>
+                                <div class="card-icon">
+                                    <img src="./image/pencil-case.png" alt="img">
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt.
+                            </p>
+                            <a href="#" class="card-btn"> read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div class="container">
+                <div class="work-box">
+                    
+                    <div class="portfolio">
+                        <div class="work-header">
+                            <div class="work-title-box">
+                                <h2 class="title work-title"> Latest Works</h2>
+                                <div class="title-line"></div>
+                            </div>
+                            <div class="work-nav">
+                                <a href="#" class="work-nav-item active-nav" id="all">all</a>
+                                <a href="#" class="work-nav-item" id="web-design">WEB DESIGN</a>
+                                <a href="#" class="work-nav-item" id="branding">BRANDING</a>
+                                <a href="#" class="work-nav-item" id="photo">PHOTOGRAPHY</a>
+                                <a href="#" class="work-nav-item" id="illustration">ILLUSTRATION</a>
+                            </div>
+                        </div>
+                        <div class="portfolio-card photo" data-photo="photo">
+                            <div class="portfolio-card-wrap">
+                                <div class="portfolio-img">
+                                    <img src="./image/4.png" alt="img">
+                                </div>
+                                <h2 class="portfolio-card-title">
+                                    100 YEARS PHOTOGRAPHY
+                                </h2>
+                                <div class="portfolio-card-desc">
+                                    <p class="desc-title">Photography</p>
+                                    <p class="desc-text">
+                                        Lorem ipsum dolor sit amet, consectetur 
+                                        adipiscing elit.
+                                    </p>
+                                    <div class="read-more-btn">
+                                        <a href="#">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-card web-desig translateY" data-web-design="web-design">
+                            <div class="portfolio-card-wrap fl-end">
+                                <div class="portfolio-img">
+                                    <img src="./image/6.png" alt="img">
+                                </div>
+                                <h2 class="portfolio-card-title">
+                                    GROOVEMADE PRODUCTS FOR MAC
+                                </h2>
+                                <div class="portfolio-card-desc">
+                                    <p class="desc-title">Photography</p>
+                                    <p class="desc-text">
+                                        Lorem ipsum dolor sit amet, consectetur 
+                                        adipiscing elit.
+                                    </p>
+                                    <div class="read-more-btn">
+                                        <a href="#">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-card branding" data-branding="branding">
+                            <div class="portfolio-card-wrap">
+                                <div class="portfolio-img">
+                                    <img src="./image/5.png" alt="img">
+                                </div>
+                                <h2 class="portfolio-card-title">
+                                    A KITTEN’S LIFE
+                                </h2>
+                                <div class="portfolio-card-desc">
+                                    <p class="desc-title">Photography</p>
+                                    <p class="desc-text">
+                                        Lorem ipsum dolor sit amet, consectetur 
+                                        adipiscing elit.
+                                    </p>
+                                    <div class="read-more-btn">
+                                        <a href="#">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-card illustration translateY" data-illustration="illustration">
+                            <div class="portfolio-card-wrap fl-start">
+                                <div class="portfolio-img">
+                                    <img src="./image/7.png" alt="img">
+                                </div>
+                                <h2 class="portfolio-card-title">
+                                    APPLE’s LOST MAGIC
+                                </h2>
+                                <div class="portfolio-card-desc">
+                                    <p class="desc-title">Photography</p>
+                                    <p class="desc-text">
+                                        Lorem ipsum dolor sit amet, consectetur 
+                                        adipiscing elit.
+                                    </p>
+                                    <div class="read-more-btn">
+                                        <a href="#">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-more">
+                        <a href="#">view more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team">
+            <div class="container">
+                <div class="team-row">
+                    <div class="team-title">
+                        <h2 class="title"> The Team</h2>
+                        <div class="team-line"></div>
+                    </div>
+                    <div class="team-card-box fl-row">
+                        <div class="team-card bg fl-coll" style="background-image: url(./image/8.png);">
+                            <div class="team-card-desc">
+                                <h3 class="team-card-name"> tom jones</h3>
+                                <div class="team-hide-block fl-coll">
+                                    <div class="name-line"></div>
+                                    <p class="work-name">Creative Director</p>
+                                    <p class="team-text">Create with simplicity in mind!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-card bg fl-coll" style="background-image: url(./image/9.png);">
+                            <div class="team-card-desc">
+                                <h3 class="team-card-name"> tom jones</h3>
+                                <div class="team-hide-block fl-coll">
+                                    <div class="name-line"></div>
+                                    <p class="work-name">Creative Director</p>
+                                    <p class="team-text">Create with simplicity in mind!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-card bg fl-coll" style="background-image: url(./image/10.png);">
+                            <div class="team-card-desc">
+                                <h3 class="team-card-name"> tom jones</h3>
+                                <div class="team-hide-block fl-coll">
+                                    <div class="name-line"></div>
+                                    <p class="work-name">Creative Director</p>
+                                    <p class="team-text">Create with simplicity in mind!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review">
+            <div class="container">
+                <div class="review-block">
+                    <div class="review-wrap">
+                        <div class="review-slider owl-carousel">
+                            <div class="review-box">
+                                <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                </p>
+                                <div class="quote">
+                                    <img src="./image/quote-hand-drawn-symbol.png" alt="img">
+                                </div>
+                                <div class="author-name">
+                                    <h3>DAVID JAMES</h3> 
+                                    <span class="author-position">/ Web Design</span>
+                                </div>
+                                <div class="star fl-row">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star4.png" alt="img">
+                                </div>
+                                <div class="review-line"></div>
+                            </div>
+                            <div class="review-box">
+                                <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                </p>
+                                <div class="quote">
+                                    <img src="./image/quote-hand-drawn-symbol.png" alt="img">
+                                </div>
+                                <div class="author-name">
+                                    <h3>DAVID JAMES</h3> 
+                                    <span class="author-position">/ Web Design</span>
+                                </div>
+                                <div class="star fl-row">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star4.png" alt="img">
+                                </div>
+                                <div class="review-line"></div>
+                            </div>
+                            <div class="review-box">
+                                <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                </p>
+                                <div class="quote">
+                                    <img src="./image/quote-hand-drawn-symbol.png" alt="img">
+                                </div>
+                                <div class="author-name">
+                                    <h3>DAVID JAMES</h3> 
+                                    <span class="author-position">/ Web Design</span>
+                                </div>
+                                <div class="star fl-row">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star4.png" alt="img">
+                                </div>
+                                <div class="review-line"></div>
+                            </div>
+                            <div class="review-box">
+                                <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                </p>
+                                <div class="quote">
+                                    <img src="./image/quote-hand-drawn-symbol.png" alt="img">
+                                </div>
+                                <div class="author-name">
+                                    <h3>DAVID JAMES</h3> 
+                                    <span class="author-position">/ Web Design</span>
+                                </div>
+                                <div class="star fl-row">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star.png" alt="img">
+                                    <img src="./image/star4.png" alt="img">
+                                </div>
+                                <div class="review-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="contact" id="contact">
+                <div class="contanct-block">
+                    <div class="grey-block">
+                        <div class="contact-icon">
+                            <img src="./image/briefcase.png" alt="">
+                        </div>
+                        <h2 class="contact-title">Want to work together?</h2>
+                        <p class="contact-desc">Amazing. Tell us about your project!</p>
+                    </div>
+                    <div class="green-block">
+                        <div class="contact-icon">
+                            <img src="./image/mail.png" alt="">
+                        </div>
+                        <h2 class="contact-title">Contact us</h2>
+                        <p class="contact-desc">Get in touch</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer class="footer">
+            <div class="footer-row1">
+                <div class="container">
+                    <div class="footer-row1-block">
+                        <p class="adress">
+                            3rd Floor, Santa Monica Beach, CA, San Francisco
+                        </p>
+                        <p class="tel">
+                            (359) 0 123 456 789 - info@yourmail.com
+                        </p>
+                        <div class="footer-icon">
+                            <img src="./image/fb.png" alt="">
+                            <img src="./image/twitter.png" alt="">
+                            <img src="./image/pinterest.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-row2">
+                <div class="container">
+                    <p class="copyright">
+                        Copyright 2016 - All Rights Reserved - Designed by JD
+                    </p>
+                </div>
+            </div>
+    </footer>
+    <script src="./src/index.js"></script>
+    <script src="./src/owl.carousel.min.js"></script>
+</body>
+</html>
